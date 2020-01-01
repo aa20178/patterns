@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=void\ setUp()
+comment0.text=\nMet\ en\ place\ les\ engagements.\n\nM\u00E9thode\ appel\u00E9e\ avant\ chaque\ appel\ de\ m\u00E9thode\ de\ test.\n\n
+comment1.target=void\ tearDown()
+comment1.text=\nSupprime\ les\ engagements\n\nM\u00E9thode\ appel\u00E9e\ apr\u00E8s\ chaque\ appel\ de\ m\u00E9thode\ de\ test.\n\n
+comment2.target=void\ test_PizzaStore_PizzaSolo()
+comment3.target=void\ test_PizzaStore_PizzaSoloHamHam()
+comment4.target=void\ test_PizzaStore_PizzaClassicClamsClams()
+comment5.target=void\ test_PizzaStore_PizzaCrustTomatoMozarella()
+comment6.params=bouton
+comment6.target=void\ click(Component)
+comment7.params=label\ message\ resultatAttendu
+comment7.target=void\ verificationDuResultat(Component,\ String,\ String)
+comment8.params=x\ y
+comment8.target=void\ mouseMoveAndClick(int,\ int)
+numComments=9

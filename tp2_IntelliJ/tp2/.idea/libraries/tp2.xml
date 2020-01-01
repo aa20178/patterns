@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tp2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tp2_try_catch_animation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/applettes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
