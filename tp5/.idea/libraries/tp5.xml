@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tp5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ihm_q2_1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ihm_q2_2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tp5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ihm_q1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,26 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70a910aa-1a8c-411f-a5ec-3e01a7413a3f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c26b6e2b-5373-41fc-aafe-577326541e11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/question1/Ensemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/Ensemble.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/Ensemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/question1/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/question1/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submitter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/submitter.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1VMKX0uhZh1v1S9GTjPSd5DnrDS" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp6" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TqPXdSBDiy07WsXKje5yvUgM6d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ihm_q1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/ihm_q1.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.ihm_q1.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -29,12 +71,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70a910aa-1a8c-411f-a5ec-3e01a7413a3f" name="Default Changelist" comment="" />
-      <created>1577057559186</created>
+      <changelist id="c26b6e2b-5373-41fc-aafe-577326541e11" name="Default Changelist" comment="" />
+      <created>1574184693112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577057559186</updated>
+      <updated>1574184693112</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="493" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1577996986252">
+      <screen x="0" y="0" width="1680" height="1026" />
+    </state>
+    <state x="493" y="340" key="com.intellij.ide.util.TipDialog/0.0.1680.1026@0.0.1680.1026" timestamp="1577996986252" />
   </component>
 </project>
