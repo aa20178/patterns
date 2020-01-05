@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26b6e2b-5373-41fc-aafe-577326541e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../tp4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp4/question2/IHMQuestion2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp4/question2/IHMQuestion2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/Ensemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/Ensemble.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.ctxt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/Ensemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsemble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsembleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsembleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/question1/bluej.pkg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question1/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/question1/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/IHMListe.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/IHMListe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/IHMListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/IHMListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/JPanelListe.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/JPanelListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/question2/package.bluej" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/submitter.properties" beforeDir="false" afterPath="$PROJECT_DIR$/submitter.properties" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +55,22 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp4" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="ihm_q1.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/ihm_q1.jar" />
@@ -53,18 +81,6 @@
         <item itemvalue="JAR Application.ihm_q1.jar" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
