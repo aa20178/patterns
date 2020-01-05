@@ -33,15 +33,22 @@ public class  Chapitre2CoreJava2
     public static Map<String, Integer> occurrencesDesMots(List<String> liste) 
     {
         Map<String, Integer> table = new HashMap<String, Integer>();
-        for (String i : liste) 
-         {
-            Integer j = table.get(i); 
-            table.put(i, (j == null) ? 1 : j + 1); 
-        } 
-  
+        for(String word : liste)
+        {
+            Integer previousAmount = table.get(word);
+            if(previousAmount == null) table.put(word, 1);
+            else table.put(word, previousAmount + 1);
+        }
 
         return table;
+
     }
+
+
+
+
+
+
 
     public static final String CHAPITRE2 =
 

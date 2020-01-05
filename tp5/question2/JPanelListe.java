@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.LinkedList;
 import java.util.Map;
+import java.util.function.Predicate;
 import java.util.regex.Pattern;
 
 public class JPanelListe extends JPanel implements ActionListener, ItemListener 
@@ -69,8 +70,8 @@ public class JPanelListe extends JPanel implements ActionListener, ItemListener
         boutonRechercher.addActionListener(this);
         boutonRetirer.addActionListener(this);
         boutonOccurrences.addActionListener(this);
-
-// � compl�ter;
+        ordreCroissant.addItemListener(this);
+        ordreDecroissant.addItemListener(this);
 
     }
 
@@ -111,13 +112,12 @@ public class JPanelListe extends JPanel implements ActionListener, ItemListener
 
     public void itemStateChanged(ItemEvent ie)
     {
-        TriDecroissant td = new TriDecroissant();
-        TriCroissant tc = new TriCroissant();
+
 
         if (ie.getSource() == ordreCroissant)
-        Collections.sort(liste,tc  );
+            liste.sort(Comparator.naturalOrder());
         else if (ie.getSource() == ordreDecroissant)
-        Collections.sort(liste,td  );
+            liste.sort(Comparator.reverseOrder());
 
         texte.setText(liste.toString());
     }
@@ -125,51 +125,25 @@ public class JPanelListe extends JPanel implements ActionListener, ItemListener
     private boolean retirerDeLaListeTousLesElementsCommencantPar(String prefixe)
     {
         boolean resultat = false;
-        resultat = liste.removeIf(Pattern.compile(saisie.getText()+"*").asPredicate());
+        Iterator<String> iterator = liste.iterator();
+
+        while (iterator.hasNext())
+        {
+            String string = iterator.next();
+            if (string.startsWith(prefixe))
+            {
+                iterator.remove();
+                Chapitre2CoreJava2.listeDesMots();
+                Chapitre2CoreJava2.occurrencesDesMots(liste);
+                resultat = true;
+            }
+            else resultat = false;
+        }
+        
         return resultat;
 
     }
 
-    class TriCroissant implements Comparator<String>
-    {
-        public int compare(String obj1, String obj2)
-        {
-            if (obj1 == obj2)
-            {
-                return 0;
-            }
-            if (obj1 == null) {
-                return -1;
-            }
-            if (obj2 == null) {
-                return 1;
-            }
-            return obj1.compareTo(obj2);
-        }
 
 
-    }
-
-    private class TriDecroissant implements Comparator<String>
-    {
-        public int compare(String obj1, String obj2)
-        {
-            if (obj1 == obj2)
-            {
-                return 0;
-            }
-            if (obj1 == null)
-            {
-                return -1;
-            }
-            if (obj2 == null)
-            {
-                return 1;
-            }
-            return -obj1.compareTo(obj2);
-        
-    }
-
-
-}
 }

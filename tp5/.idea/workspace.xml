@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26b6e2b-5373-41fc-aafe-577326541e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../tp4/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tp4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp4/question2/IHMQuestion2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tp4/question2/IHMQuestion2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/bluej.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/Ensemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/Ensemble.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/Ensemble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/EnsembleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/EnsembleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/IHMTestEnsembleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/question1/IHMTestEnsembleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/question1/bluej.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question1/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/question1/package.bluej" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/Chapitre2CoreJava2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2/IHMListe.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/IHMListe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2/IHMListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/IHMListe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/JPanelListe$TriCroissant.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe$TriCroissant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question2/JPanelListe$TriDecroissant.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe$TriDecroissant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question2/JPanelListe.class" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question2/JPanelListe.java" beforeDir="false" afterPath="$PROJECT_DIR$/question2/JPanelListe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/question2/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/question2/package.bluej" afterDir="false" />
