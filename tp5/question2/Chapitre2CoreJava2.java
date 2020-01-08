@@ -12,7 +12,8 @@ public class  Chapitre2CoreJava2
      * Obtention d'une liste de mots a� partir de la constante CHAPITRE2.
      * 
      **/
-    public static List<String> listeDesMots() {
+    public static List<String> listeDesMots() 
+    {
         List<String> liste = new LinkedList<String>(); // � compl�ter
 
         StringTokenizer st = new StringTokenizer(Chapitre2CoreJava2.CHAPITRE2,
@@ -35,9 +36,8 @@ public class  Chapitre2CoreJava2
         Map<String, Integer> table = new HashMap<String, Integer>();
         for(String word : liste)
         {
-            Integer previousAmount = table.get(word);
-            if(previousAmount == null) table.put(word, 1);
-            else table.put(word, previousAmount + 1);
+            if(table.get(word) == null){table.put(word, 1);}
+            else table.put(word, table.get(word) + 1);
         }
 
         return table;

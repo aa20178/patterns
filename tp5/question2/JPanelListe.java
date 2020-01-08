@@ -122,28 +122,20 @@ public class JPanelListe extends JPanel implements ActionListener, ItemListener
         texte.setText(liste.toString());
     }
 
-    private boolean retirerDeLaListeTousLesElementsCommencantPar(String prefixe)
-    {
-        boolean resultat = false;
-        Iterator<String> iterator = liste.iterator();
 
-        while (iterator.hasNext())
-        {
-            String string = iterator.next();
-            if (string.startsWith(prefixe))
-            {
-                iterator.remove();
-                Chapitre2CoreJava2.listeDesMots();
-                Chapitre2CoreJava2.occurrencesDesMots(liste);
+    private boolean retirerDeLaListeTousLesElementsCommencantPar(String prefixe) {
+        boolean resultat = false;
+        // à compléter
+        for (Iterator<String> mot = liste.iterator(); mot.hasNext();) {
+            String currentMot = mot.next();
+            if (currentMot.startsWith(prefixe)) {
+                mot.remove();
+                this.occurrences.put(currentMot,this.occurrences.get(currentMot)-1);
                 resultat = true;
             }
-            else resultat = false;
         }
-        
         return resultat;
-
     }
-
-
+  
 
 }

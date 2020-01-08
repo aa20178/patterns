@@ -260,7 +260,7 @@ public class IHMListeTest extends junit.framework.TestCase{
             assertEquals("--> est attendu ???","-->",sc.next());
             try{
                 int result = sc.nextInt();
-                assertTrue(" Nombre d'occurrence de linked est-il erroné ??? (0 après un retrait)",result==0);
+                assertTrue(" Nombre d'occurrence de linked est-il erroné ??? (0 après un retrait):::VAL="+result,result==0);
             }catch(java.util.InputMismatchException e){
                 fail("L'affichage du nombre d'occurrence doit être de 0 après un retrait effectif");
             }
